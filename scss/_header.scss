@@ -1,0 +1,93 @@
+.atras{
+    background-color: #0416b4;
+    
+}
+
+
+.imgHeader{
+    position: absolute;
+    top: -10px;
+    
+}
+.px{
+    font-size: 20px;
+}
+
+.borderPaginas {
+    li{
+        border: inset  7px white;
+        padding: 4px; 
+        margin: $distaciamientoHeader;
+    }
+           
+}
+
+.padreFlexDeMenu{
+    display: flex;
+    justify-content: space-around;   
+    
+}
+
+
+
+.menu {
+    li{
+        position: relative;
+    }      
+}
+
+.submenu{
+    position: absolute;
+    left: -25px;
+    top: 40px;
+    display: none;  
+    border: none;   
+    background-color: rgb(247, 227, 250);     
+    
+}
+
+.submenu {
+    li{
+    display: block;
+    width: 140px;  
+    font-size: 15px;
+    
+
+    }        
+}
+
+.submenu{
+    li{
+        a{
+            color: $redHeader;
+        }
+    }       
+}
+
+.menu{
+    li:hover{
+        .submenu{
+            display: block;
+        }
+    } 
+}
+
+.borderPaginas ul li{
+    border-style: none;      
+}
+.alineado{
+    display: inline-block;
+}
+.negro{
+    color: black; 
+    text-decoration: none;  
+    
+}
+.rojoHeader{
+    color: $redHeader;
+    text-decoration: none;     
+}
+.interlineado{
+    line-height: 1.8;
+} 
+

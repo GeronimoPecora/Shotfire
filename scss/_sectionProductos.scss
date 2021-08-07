@@ -1,0 +1,26 @@
+
+.pxProductos{
+    font-size: 14px;
+}
+.naranja{
+    color: rgb(241, 113, 8);
+}
+.listasMarrones{
+    color:rgb(129, 72, 25);
+}
+.estiloDeLista{
+    text-decoration:solid;
+    list-style:decimal;
+    list-style-position: inside;
+    font-size: 12px;
+}
+
+.flex{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 800px; 
+}
+.align{
+    display: flex;
+    align-content:flex-end;
+}

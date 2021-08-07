@@ -1,0 +1,86 @@
+.atrasThree{
+    background-color: #000000;
+}
+@mixin anchoAltoFooter($width, $height) {
+    height: $height;
+    width: $width;  
+}
+.subtitulosFooter{
+    color: $greenFooter;
+    text-align: $centroFooter;
+}
+.rojoFooter{
+    color: $redFooter;
+    text-align: $centroFooter;
+}
+
+.borderSubtitulosFooter{
+    border: inset  7px white;
+    margin: $distaciamientoFooterTwo;                
+}
+.animacionFooter{
+    height: 55px;
+    animation-iteration-count:initial ;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-name: agrandar;
+ 
+ @keyframes agrandar {
+        0%{ font-size: 8px;}
+        25%{ font-size: 12px;}
+        50%{ font-size: 18px;}
+        75%{ font-size: 22px;}
+        100%{ font-size: 25px;}
+    }    
+}
+.footer__preguntasOne{
+    @extend .rojoFooter;
+    margin:25px 0px;
+    font-size: $numeroFooter; 
+
+    
+}
+.footer__preguntas__preguntas--preguntasTwo{
+    margin: 0px 0px 25px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.enLineaFooter{  
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;   
+} 
+.enLineaFooter__agrandar{
+    @include anchoAltoFooter(50px, 50px);
+    margin-bottom: 5px;
+    transition: 2s;
+
+    
+}
+.enLineaFooter__agrandar__agrandar--agrandarTwo{
+    @include anchoAltoFooter(55px, 55px);
+    margin-bottom: 50px;
+    transition: 2s;
+    
+}
+.enLineaFooter__agrandar__agrandar--agrandarThree {
+    @include anchoAltoFooter( 55px, 55px);
+    margin-bottom: 50px;
+    transition: 2s;
+    
+}
+
+.enLineaFooter__agrandar :hover{
+    @include anchoAltoFooter(100px, 100px);
+    
+    
+}
+.enLineaFooter__agrandar__agrandar--agrandarTwo :hover{
+    @include anchoAltoFooter(100px, 100px);
+}
+.enLineaFooter__agrandar__agrandar--agrandarThree :hover{
+    @include anchoAltoFooter(100px, 100px);
+}

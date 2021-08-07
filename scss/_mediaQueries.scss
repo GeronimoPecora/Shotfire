@@ -1,0 +1,203 @@
+@media(max-width:767px){
+    .imgFour{
+        max-width: 95%;
+        justify-self: center;
+    }
+    .imgFive{
+        max-width: 48%;  
+        margin: 3px; 
+    }
+    .imgThree{
+        height: 250px;
+    }
+    .imgSix{
+        max-width: 80%;
+        justify-self: center;
+    }
+    .header__titulo{
+        font-size: 28px;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 2s;
+        animation-delay: 4s;
+        animation-name: aparecer;
+        margin-right: 0px;
+        display: inline;
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+        
+     }
+    }
+    .animacion{
+        height: 67px;
+        font-size: 20px;
+        animation-iteration-count:initial ;
+        animation-timing-function: ease-in;
+        animation-duration: 3s;
+        animation-delay: 0s;
+        animation-name: agrandarTwo;
+     
+     @keyframes agrandarTwo {
+            0%{ font-size: 7px;}
+            25%{ font-size: 10px;}
+            50%{ font-size: 14px;}
+            75%{ font-size: 17px;}
+            100%{ font-size: 20px;}
+        }  
+       
+        
+    }
+    .padreFlexDeCompetenciaTwo{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row nowrap;
+        align-items: center;              
+    }
+    .padreFlexDeCompetenciaTwoY{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row nowrap;
+        align-items: center;          
+    }
+    .tamañoThree{
+        height: 140px;
+        width: 150px;    
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .posicionOne{
+        display: grid;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .tamañoFour{
+        font-size: 17px;
+    }
+    .tamañothree{
+        font-size: 12px;
+    }
+    .marginthree{
+        margin-left: unset;
+    }
+    .marginFour{
+        margin-left: 35px;
+    }
+    .marginTwo{
+        margin-left:unset ;
+    }
+
+    .marginFive{
+        margin: 0px 5px;
+    }
+    .marginSix{
+        margin: 0px 70px 0px 0px;
+    }
+    .marginSeven{
+        margin: unset;
+    }
+   
+       
+   
+}
+
+@media(min-width:768px){
+    .header__titulo{
+        font-size: 28px;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 2s;
+        animation-delay: 4s;
+        animation-name: aparecer;
+        margin-right: 160px;
+        display: inline;
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+        
+     }
+    }
+    .animacion{
+        height: 60px;
+        animation-iteration-count:initial ;
+        animation-timing-function: ease-in;
+        animation-duration: 3s;
+        animation-delay: 0s;
+        animation-name: agrandar;
+     
+     @keyframes agrandar {
+            0%{ font-size: 8px;}
+            25%{ font-size: 12px;}
+            50%{ font-size: 18px;}
+            75%{ font-size: 22px;}
+            100%{ font-size: 25px;}
+        }  
+       
+        
+    }
+    .padreFlexDeCompetenciaTwo{
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;  
+        height: 370px;  
+               
+    }
+    .posicionOne{
+        display: flex;
+        justify-content: space-evenly;
+    
+    }
+    .marginThree{
+        margin-left: 35px;
+    }
+    .marginTwo{
+        margin-left: 35px;
+    }
+    .padreFlexDeCompetenciaTwo{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row nowrap;
+        margin-bottom: 10px;
+
+        
+        
+               
+    }
+    .padreFlexDeCompetenciaTwoY{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row nowrap;
+        margin-bottom: 10px;
+            
+    }
+    .tamañoThree{
+        height: 400px;
+        width: 400px;    
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .imgThree{
+        width: 400px;
+        height: 300px;
+        
+    }
+    .marginFive{
+        margin: 0px 45px;
+    }
+    .marginSix{
+        margin: 0px 0px 0px 250px;
+    }
+    .marginSeven{
+        margin: 0px 130px 0px 200px;
+    }
+       
+}   
+
