@@ -1,12 +1,11 @@
 .article__parrafoOne{
     margin:$distaciamientoTwo;
     text-align:  $centro;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .article__parrafoOne__parrafoOne--Subtitulo{
     color: $azul;
     text-align: $centro;
-    border: inset  7px white;
     padding: 5px;
     margin: $distaciamiento;
 
@@ -14,11 +13,11 @@
 .article__parrafoOne__parrafoOne--parrafoTwo{
     text-align: $centro;
     margin: $distaciamiento;
-    color: white;
+    
 }
 
 .article__parrafoOne__parrafoOne--parrafoFour{
-    color: white;
+    margin: $distaciamientoTwo;
 }
 
 .div{

@@ -1,4 +1,8 @@
 @media(max-width:767px){
+    .imgTwo{
+        width: 60px; 
+        height: 60px;
+    }
     .imgFour{
         max-width: 95%;
         justify-self: center;
@@ -13,7 +17,7 @@
     .imgSix{
         max-width: 80%;
         justify-self: center;
-    }
+    }  
     .header__titulo{
         font-size: 28px;
         animation-iteration-count: infinite;
@@ -106,8 +110,12 @@
 }
 
 @media(min-width:768px){
+    .imgTwo{
+        width: 100px; 
+        height: 100px;
+    }
     .header__titulo{
-        font-size: 28px;
+        font-size: 35px;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in;
         animation-duration: 2s;
@@ -126,7 +134,7 @@
      }
     }
     .animacion{
-        height: 60px;
+        height: 46px;
         animation-iteration-count:initial ;
         animation-timing-function: ease-in;
         animation-duration: 3s;
@@ -198,6 +206,6 @@
     .marginSeven{
         margin: 0px 130px 0px 200px;
     }
-       
+ 
 }   
 

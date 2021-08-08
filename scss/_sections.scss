@@ -1,15 +1,13 @@
 .atrasTwo{
-    background-color: #b10000;
+    background-color:#ffffff
+
 }
 .subtitulosSection{
     color: $azul;
     text-align: $centro;
+    margin: $distaciamiento;
 }
-.borderSubtitulos{
-    border: inset  7px white;
-    padding: 5px;
-    margin: $distaciamientoTwo;                
-}
+
 
 .linea{
     display: inline-block;
@@ -26,7 +24,7 @@
     
 }
 .article__parrafoOne__parrafoOne--parrafoThree{
-    color: black;
+    color: rgb(238, 93, 93);
     text-decoration: none; 
     text-align:  $centro;
     margin: $distaciamientoTwo;
@@ -51,5 +49,10 @@
 .around{
     display: flex;
     justify-content: space-around;
-    
+}
+.margin{
+    margin-top: 10px;
+}
+.marginTwo{
+    margin-bottom: 10px;
 }

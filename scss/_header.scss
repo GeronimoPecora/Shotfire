@@ -1,9 +1,8 @@
 .atras{
-    background-color: #0416b4;
-    
+    background-color: rgb(77, 77, 221);
+    border:outset 3px #eeecf8;
+    margin-bottom: 10px;
 }
-
-
 .imgHeader{
     position: absolute;
     top: -10px;
@@ -13,14 +12,7 @@
     font-size: 20px;
 }
 
-.borderPaginas {
-    li{
-        border: inset  7px white;
-        padding: 4px; 
-        margin: $distaciamientoHeader;
-    }
-           
-}
+
 
 .padreFlexDeMenu{
     display: flex;
