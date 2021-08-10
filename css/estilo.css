@@ -160,6 +160,8 @@
   .imgThree {
     width: 400px;
     height: 300px; }
+  .marginFour {
+    margin: 35px 0px 5px; }
   .marginFive {
     margin: 0px 45px; }
   .marginSix {
@@ -244,6 +246,10 @@
   width: 500px;
   height: 300px; }
 
+.azul {
+  color: #24249e; }
+
+/*fdf*/
 .input {
   width: 200px;
   height: 20px;
@@ -267,6 +273,9 @@
 
 .borderSelect {
   border: inset 3px; }
+
+.red {
+  color: #c52525; }
 
 .atrasThree {
   background-color: #000000; }
