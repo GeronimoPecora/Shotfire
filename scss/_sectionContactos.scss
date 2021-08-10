@@ -2,11 +2,6 @@
     width: $width;
     height: $height;
 }
-.azul{
-    color: $azul;
-}
-
-
 .input{
    @include anchoAltoSection(200px, 20px);
     background-color: white;
@@ -29,13 +24,6 @@
 .borderSelect{
     border: inset 3px; 
 }
-.gridTwo{
-    display: grid;
-}
-.centerTwo{
-    justify-self: center;
-}
-.block{
-    display: block;
-}
+
+
 

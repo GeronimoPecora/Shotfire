@@ -6,19 +6,9 @@
     width: $width;  
 }
 .subtitulosFooter{
-    color: $azul;
+    color: $azulFooter;
     text-align: $centroFooter;
 }
-.rojoFooter{
-    color: $redFooter;
-    text-align: $centroFooter;
-}
-.padding{
-    padding-top: 10px;
-}
-
-
-
 .animacionFooter{
     height: 55px;
     animation-iteration-count:initial ;
@@ -34,6 +24,10 @@
         75%{ font-size: 22px;}
         100%{ font-size: 25px;}
     }    
+}
+.rojoFooter{
+    color: red;
+    text-align: center
 }
 .footer__preguntasOne{
     @extend .rojoFooter;

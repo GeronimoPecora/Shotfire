@@ -30,20 +30,11 @@
     margin: $distaciamientoTwo;
     font-size: $numero;
 }
+
 .evenly{
     display: flex;
     justify-content: space-evenly;
     margin: $distaciamiento;
-    
-}
-
-.rojoSection{
-    color: $red;
-    text-decoration: none; 
-    text-align:  $centro;    
-}   
-.pxOne{
-    font-size: $numero;
     
 }
 .around{

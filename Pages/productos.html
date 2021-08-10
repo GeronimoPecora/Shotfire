@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <title>Productos de Shotfire</title>
 </head>
-<body class="letra imagen blanco">
+<body class="letra imagen ">
     <header class="header atras">
       <nav class="navbar navbar-expand-lg navbar-light ">
         <a class="navbar-brand red " href="#">
@@ -53,7 +53,7 @@
     </header>       
     <section class="atrasTwo">
         <article>
-            <h2 class="subtitulosSection borderSubtitulos animacion  " id="Productos">¿Que productos ofrecemos?</h2>
+            <h2 class="subtitulosSection animacion  " id="Productos">¿Que productos ofrecemos?</h2>
             <div class="evenly">
                 <p class="linea">Diferentes armas</p>
                 <p class="linea">Ropa de tiro de marca</p>
@@ -62,33 +62,56 @@
                 <img src="../multimedia/tiro18.jpeg" class="imgFive" width="420px" height="300px" alt="Rifle">
                 <img src="../multimedia/tiro20.jpeg" class="imgFive"  width="450px" height="400px" alt="ropa">
             </div> 
-                <h3 class="subtitulosSection borderSubtitulos animacion" id="VentasArmas">Venta de armas de competencia </h3>   
-                <div class="evenly">
-                    <img src="../multimedia/tiro19.jpeg" class="imgFive" width="410px" height="315px" alt="escopeta">
-                    <img src="../multimedia/armas-de-competicion-264x264.jpg" class="imgFive"  width="410px" height="315px"alt="Rifles-y-pistola">
-                </div> 
-                <div class="evenly ">
-                    <p class="linea marginSix">Nueva escopeta llamada Beretta, con un nuevo cañon para un mayor precision, con una culata de la mejor madera y super comoda. Y el gatillo es regulable</p>
-                    <p class="linea marginSeven">Llegron dos productos buenisimos, que son de la mejor calidad, con una culata en el rifle para que la puedas poner a tu gusto y en la pistola con un agarre impresionante que cuando la agarrs, no la quieres soltar y un peso perfecto.</p>
-                </div>
-                <h3 class="subtitulosSection borderSubtitulos animacion " id="VentasRopa">Venta de ropa de tiro</h3>
+                <h3 class="subtitulosSection animacion" id="VentasArmas">Venta de armas de competencia </h3>
+                <div class="row row-cols-1 row-cols-md-3 evenly">
+                    <div class="col mb-4">
+                      <div class="card  bg-danger">
+                        <img src="../multimedia/tiro19.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Escopeta</h5>
+                          <p class="card-text">Nueva escopeta llamada Beretta, con un nuevo cañon para un mayor precision, con una culata de la mejor madera y super comoda. Y el gatillo es regulable.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card  bg-danger">
+                        <img src="../multimedia/armas-de-competicion-264x264.jpg" class="card-img-top" alt="escopeta">
+                        <div class="card-body">
+                          <h5 class="card-title">Rifle y pistola</h5>
+                          <p class="card-text">Llegron dos productos buenisimos, que son de la mejor calidad, con una culata en el rifle para que la puedas poner a tu gusto y en la pistola con un agarre impresionante que cuando la agarrs, no la quieres soltar y un peso perfecto.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>       
+                <h3 class="subtitulosSection animacion " id="VentasRopa">Venta de ropa de tiro</h3>
             <p class="center">Tenemos la mejor ropa de todas, de todos los tamaño, con mucha variacion y con una mayor estabilidad en el deporte.</p>
-            <div class="evenly">
-                <img src="../multimedia/tiro21.jpeg" class="imgFive" width="250px" height="250px" alt="chaqueta">
-                <img src="../multimedia/Prone_Extra_komplett-500x264.png" class="imgFive"  width="300px" height="200px" alt="saco">
-            </div>
-            <div class="evenly  ">
-                <p class="marginSix">Hermosa y comoda chaqueta para poder entrenar con tu escopeta.</p>
-                <p class="marginSeven">Obtiene un increible saco para un equilibrio y comodidad al momento de hacer el tiro perfecto.</p>
-            </div>
-            <div class="gridOne">
-                <img src="../multimedia/standard_open.jpg" class="" width="250px" height="250px" alt="guantes">
-            </div>  
-            <p class=" center">Un guante para sentirte seguro al agarrar el rifle y poder entrenar de la mejor forma.</p>      
+            <div class="card-deck">
+                <div class="card bg-danger ">
+                  <img src="../multimedia/tiro23.jpg" width="200px" height="400px" class="card-img-top" alt="Saco de tiro">
+                  <div class="card-body">
+                    <h5 class="card-title">saco</h5>
+                    <p class="card-text">Obtiene un increible saco para un equilibrio y comodidad al momento de hacer el tiro perfecto.</p>
+                  </div>
+                </div>
+                <div class="card bg-danger">
+                  <img src="../multimedia/tiro24.jpg" width="200px" height="400px" class="card-img-top" alt="chaqueta de tiro">
+                  <div class="card-body">
+                    <h5 class="card-title">Pantalon</h5>
+                    <p class="card-text">Hermosa y comodo pantalon para poder entrenar con tu rifle.</p>
+                  </div>
+                </div>
+                <div class="card bg-danger">
+                  <img src="../multimedia/standard_open.jpg" width="200px" height="400px" class="card-img-top" alt="guantes de tiro">
+                  <div class="card-body">
+                    <h5 class="card-title">guantes</h5>
+                    <p class="card-text">Un guante para sentirte seguro al agarrar el rifle y poder entrenar de la mejor forma.</p>
+                  </div>
+                </div>
+            </div>   
         </article> 
         <article class="article">
             <div class="subtitulosSection ">
-                <h3 class="borderSubtitulos animacion"id="Nosotros">Nosotros</h3>
+                <h3 class= "animacion" id="Nosotros">Nosotros</h3>
             </div>
             <p class="article__parrafoOne__parrafoOne--parrafoThree">Nuestra historia</p>
             <p class="article__parrafoOne__parrafoOne--parrafoFour">Nosotros empezamos hace 3 años pero recien de  un año intentando, pudimos ser reconocidos y lo logramos y ahora estamos aqui parados como una gran empresa que promueve este hermoso deporte.</p>           
