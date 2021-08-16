@@ -1,3 +1,9 @@
+.atras{
+    background-color: rgb(77, 77, 221);
+    border:outset 3px #eeecf8;
+    margin-bottom: 10px;
+}
+
 @media(max-width:449px){
     .header__titulo{
         font-size: 28px;
@@ -131,12 +137,6 @@
         width: 85px; 
         height: 85px;
     }
-}
-
-.atras{
-    background-color: rgb(77, 77, 221);
-    border:outset 3px #eeecf8;
-    margin-bottom: 10px;
 }
 
 

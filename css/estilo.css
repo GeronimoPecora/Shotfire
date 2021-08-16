@@ -10,6 +10,11 @@
   letter-spacing: 2px;
   font-family: 'STIX Two Text', serif; }
 
+.atras {
+  background-color: #4d4ddd;
+  border: outset 3px #eeecf8;
+  margin-bottom: 10px; }
+
 @media (max-width: 449px) {
   .header__titulo {
     font-size: 28px;
@@ -124,10 +129,50 @@
     width: 85px;
     height: 85px; } }
 
-.atras {
-  background-color: #4d4ddd;
-  border: outset 3px #eeecf8;
-  margin-bottom: 10px; }
+.atrasTwo {
+  background-color: #ffffff; }
+
+.subtitulosSection {
+  color: #05058a;
+  text-align: center;
+  margin: 11px 0px; }
+
+.center {
+  text-align: center; }
+
+.gridOne {
+  display: grid;
+  justify-content: center; }
+
+.article__parrafoOne__parrafoOne--parrafoThree {
+  color: #ee5d5d;
+  text-decoration: none;
+  text-align: center;
+  margin: 0px 0px 12px;
+  font-size: 17px; }
+
+.evenly {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 11px 0px;
+  padding: unset; }
+
+.around {
+  display: flex;
+  justify-content: space-around; }
+
+.margin {
+  margin-top: 10px; }
+
+.marginTwo {
+  margin-bottom: 20px; }
+
+.marginThree {
+  margin: 10px 25px 10px 25px; }
+
+.row {
+  margin-right: unset;
+  margin-left: unset; }
 
 @media (max-width: 449px) {
   .animacion {
@@ -253,54 +298,6 @@
     width: 400px;
     height: 300px; } }
 
-.atrasTwo {
-  background-color: #ffffff; }
-
-.subtitulosSection {
-  color: #05058a;
-  text-align: center;
-  margin: 11px 0px; }
-
-.center {
-  text-align: center; }
-
-.gridOne {
-  display: grid;
-  justify-content: center; }
-
-.article__parrafoOne__parrafoOne--parrafoThree {
-  color: #ee5d5d;
-  text-decoration: none;
-  text-align: center;
-  margin: 0px 0px 12px;
-  font-size: 17px; }
-
-.evenly {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 11px 0px;
-  padding: unset; }
-
-.around {
-  display: flex;
-  justify-content: space-around; }
-
-.margin {
-  margin-top: 10px; }
-
-.marginTwo {
-  margin-bottom: 10px; }
-
-.marginThree {
-  margin: 0px 5px 0px 5px; }
-
-.marginSeven {
-  margin-bottom: 20px; }
-
-.row {
-  margin-right: unset;
-  margin-left: unset; }
-
 .article__parrafoOne {
   margin: 0px 0px 12px;
   text-align: center; }
@@ -322,6 +319,16 @@
   justify-self: center; }
 
 /*nada por ahora*/
+.verde {
+  color: green; }
+
+.img {
+  width: 500px;
+  height: 300px; }
+
+.azul {
+  color: #24249e; }
+
 @media (max-width: 449px) {
   .padreFlexDeCompetenciaTwo {
     display: flex;
@@ -386,16 +393,6 @@
     font-size: unset;
     margin-left: unset; } }
 
-.verde {
-  color: green; }
-
-.img {
-  width: 500px;
-  height: 300px; }
-
-.azul {
-  color: #24249e; }
-
 @media (max-width: 449px) {
   .parrafo {
     max-width: 30%;
@@ -432,28 +429,6 @@
     height: 557px;
     width: unset; } }
 
-@media (max-width: 449px) {
-  .posicionOne {
-    display: grid;
-    flex-direction: column;
-    justify-content: center; }
-  .fontSizeOne {
-    font-size: 18px; }
-  .fontSizeTwo {
-    font-size: 12.5px; } }
-
-@media (min-width: 450px) {
-  .posicionOne {
-    display: grid;
-    flex-direction: column;
-    justify-content: center; } }
-
-@media (min-width: 768px) {
-  .posicionOne {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly; } }
-
 .input {
   width: 200px;
   height: 20px;
@@ -480,6 +455,83 @@
 
 .red {
   color: #c52525; }
+
+@media (max-width: 449px) {
+  .posicionOne {
+    display: grid;
+    flex-direction: column;
+    justify-content: center; }
+  .fontSizeOne {
+    font-size: 18px; }
+  .fontSizeTwo {
+    font-size: 12.5px; } }
+
+@media (min-width: 450px) {
+  .posicionOne {
+    display: grid;
+    flex-direction: column;
+    justify-content: center; } }
+
+@media (min-width: 768px) {
+  .posicionOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; } }
+
+.atrasThree {
+  background-color: #000000; }
+
+.subtitulosFooter {
+  color: #da0c0c;
+  text-align: center; }
+
+.rojoFooter, .footer__preguntasOne {
+  color: red;
+  text-align: center; }
+
+.footer__preguntasOne {
+  margin: 0px 0px 15px;
+  font-size: 17px; }
+
+.footer__preguntas__preguntas--preguntasTwo {
+  margin: 0px 0px 25px;
+  color: white; }
+
+.enLineaFooter {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style-type: none; }
+
+.enLineaFooter__agrandar {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 5px;
+  transition: 2s; }
+
+.enLineaFooter__agrandar__agrandar--agrandarTwo {
+  height: 55px;
+  width: 55px;
+  margin-bottom: 50px;
+  transition: 2s; }
+
+.enLineaFooter__agrandar__agrandar--agrandarThree {
+  height: 55px;
+  width: 55px;
+  margin-bottom: 50px;
+  transition: 2s; }
+
+.enLineaFooter__agrandar :hover {
+  height: 100px;
+  width: 100px; }
+
+.enLineaFooter__agrandar__agrandar--agrandarTwo :hover {
+  height: 100px;
+  width: 100px; }
+
+.enLineaFooter__agrandar__agrandar--agrandarThree :hover {
+  height: 100px;
+  width: 100px; }
 
 @media (max-width: 449px) {
   .animacionFooter {
@@ -543,58 +595,3 @@
       font-size: 22px; }
     100% {
       font-size: 23px; } } }
-
-.atrasThree {
-  background-color: #000000; }
-
-.subtitulosFooter {
-  color: #da0c0c;
-  text-align: center; }
-
-.rojoFooter, .footer__preguntasOne {
-  color: red;
-  text-align: center; }
-
-.footer__preguntasOne {
-  margin: 0px 0px 15px;
-  font-size: 17px; }
-
-.footer__preguntas__preguntas--preguntasTwo {
-  margin: 0px 0px 25px;
-  color: white; }
-
-.enLineaFooter {
-  display: flex;
-  justify-content: space-around;
-  text-decoration: none;
-  list-style-type: none; }
-
-.enLineaFooter__agrandar {
-  height: 50px;
-  width: 50px;
-  margin-bottom: 5px;
-  transition: 2s; }
-
-.enLineaFooter__agrandar__agrandar--agrandarTwo {
-  height: 55px;
-  width: 55px;
-  margin-bottom: 50px;
-  transition: 2s; }
-
-.enLineaFooter__agrandar__agrandar--agrandarThree {
-  height: 55px;
-  width: 55px;
-  margin-bottom: 50px;
-  transition: 2s; }
-
-.enLineaFooter__agrandar :hover {
-  height: 100px;
-  width: 100px; }
-
-.enLineaFooter__agrandar__agrandar--agrandarTwo :hover {
-  height: 100px;
-  width: 100px; }
-
-.enLineaFooter__agrandar__agrandar--agrandarThree :hover {
-  height: 100px;
-  width: 100px; }

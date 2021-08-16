@@ -1,65 +1,3 @@
-@media(max-width:449px){
-    .animacionFooter{
-        height: 55px;
-        font-size: 21px;
-        animation-iteration-count:initial ;
-        animation-timing-function: ease-in;
-        animation-duration: 3s;
-        animation-delay: 0s;
-        animation-name: agrandar;
-     
-     @keyframes agrandar {
-            0%{ font-size: 8px;}
-            25%{ font-size: 12px;}
-            50%{ font-size: 14px;}
-            75%{ font-size: 17px;}
-            100%{ font-size: 21px;}
-        }    
-    }
-   
-   
-}
-@media(min-width:450px){
-    .animacionFooter{
-        height: 55px;
-        font-size: 21px;
-        animation-iteration-count:initial ;
-        animation-timing-function: ease-in;
-        animation-duration: 3s;
-        animation-delay: 0s;
-        animation-name: agrandar;
-     
-     @keyframes agrandar {
-            0%{ font-size: 8px;}
-            25%{ font-size: 12px;}
-            50%{ font-size: 14px;}
-            75%{ font-size: 17px;}
-            100%{ font-size: 21px;}
-        }    
-    }
-}
-@media(min-width:768px){ 
-    .animacionFooter{
-        height: 55px;
-        font-size: 23px;
-        animation-iteration-count:initial ;
-        animation-timing-function: ease-in;
-        animation-duration: 3s;
-        animation-delay: 0s;
-        animation-name: agrandar;
-     
-     @keyframes agrandar {
-            0%{ font-size: 8px;}
-            25%{ font-size: 12px;}
-            50%{ font-size: 18px;}
-            75%{ font-size: 22px;}
-            100%{ font-size: 23px;}
-        }    
-    }
-
-}
-
-
 .atrasThree{
     background-color: #000000;
     
@@ -122,3 +60,66 @@
 .enLineaFooter__agrandar__agrandar--agrandarThree :hover{
     @include anchoAltoFooter(100px, 100px);
 }
+
+@media(max-width:449px){
+    .animacionFooter{
+        height: 55px;
+        font-size: 21px;
+        animation-iteration-count:initial ;
+        animation-timing-function: ease-in;
+        animation-duration: 3s;
+        animation-delay: 0s;
+        animation-name: agrandar;
+     
+     @keyframes agrandar {
+            0%{ font-size: 8px;}
+            25%{ font-size: 12px;}
+            50%{ font-size: 14px;}
+            75%{ font-size: 17px;}
+            100%{ font-size: 21px;}
+        }    
+    }
+   
+   
+}
+@media(min-width:450px){
+    .animacionFooter{
+        height: 55px;
+        font-size: 21px;
+        animation-iteration-count:initial ;
+        animation-timing-function: ease-in;
+        animation-duration: 3s;
+        animation-delay: 0s;
+        animation-name: agrandar;
+     
+     @keyframes agrandar {
+            0%{ font-size: 8px;}
+            25%{ font-size: 12px;}
+            50%{ font-size: 14px;}
+            75%{ font-size: 17px;}
+            100%{ font-size: 21px;}
+        }    
+    }
+}
+@media(min-width:768px){ 
+    .animacionFooter{
+        height: 55px;
+        font-size: 23px;
+        animation-iteration-count:initial ;
+        animation-timing-function: ease-in;
+        animation-duration: 3s;
+        animation-delay: 0s;
+        animation-name: agrandar;
+     
+     @keyframes agrandar {
+            0%{ font-size: 8px;}
+            25%{ font-size: 12px;}
+            50%{ font-size: 18px;}
+            75%{ font-size: 22px;}
+            100%{ font-size: 23px;}
+        }    
+    }
+
+}
+
+
