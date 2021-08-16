@@ -1,27 +1,17 @@
 .atrasTwo{
-    background-color:#ffffff
-
+    background-color:#ffffff;
 }
 .subtitulosSection{
     color: $azul;
     text-align: $centro;
     margin: $distaciamiento;
 }
-
-
-.linea{
-    display: inline-block;
-}
-
 .center{
     text-align: $centro;
 }
-
-
 .gridOne{
     display: grid;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 .article__parrafoOne__parrafoOne--parrafoThree{
     color: rgb(238, 93, 93);
@@ -30,12 +20,11 @@
     margin: $distaciamientoTwo;
     font-size: $numero;
 }
-
 .evenly{
     display: flex;
     justify-content: space-evenly;
     margin: $distaciamiento;
-    
+    padding: unset; 
 }
 .around{
     display: flex;
@@ -47,3 +36,11 @@
 .marginTwo{
     margin-bottom: 10px;
 }
+.marginThree{
+    margin: 0px 5px 0px 5px;
+}
+.row{
+    margin-right: unset;
+    margin-left: unset;
+}
+

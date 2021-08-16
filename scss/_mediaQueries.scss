@@ -1,4 +1,181 @@
-@media(max-width:767px){
+@media(max-width:449px){
+    .header__titulo{
+        font-size: 28px;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 2s;
+        animation-delay: 4s;
+        animation-name: aparecer;
+        margin-right: 0px;
+        display: inline;
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+
+     }
+
+    }
+    .animacion{
+        height: 48px;
+        font-size: 23px;
+        animation-iteration-count:initial ;
+        animation-timing-function: ease-in;
+        animation-duration: 3s;
+        animation-delay: 0s;
+        animation-name: agrandarTwo;
+     
+     @keyframes agrandarTwo {
+            0%{ font-size: 7px;}
+            25%{ font-size: 10px;}
+            50%{ font-size: 14px;}
+            75%{ font-size: 17px;}
+            100%{ font-size: 20px;}
+        }  
+
+    }
+    .padreFlexDeCompetenciaTwo{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row nowrap;
+        align-items: center;    
+    }
+    .padreFlexDeCompetenciaTwoY{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row nowrap;
+        align-items: center;         
+    }
+    .gridTwo{
+        display: grid;
+        justify-content: center;
+    }
+    .parrafo{
+        max-width: 30%;
+        font-size: 14px;
+        margin: 2px;  
+    }
+    .posicionOne{
+        display: grid;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .imgTwo{
+        width: 60px; 
+        height: 60px;
+    }
+    .imgThree{
+        height: 250px;
+    }
+    .imgFour{
+        max-width: 95%;
+        justify-self: center;
+    }
+    .imgFive{
+        max-width: 48%;  
+        margin: 3px; 
+    }
+    .imgSix{
+        max-width: 80%;
+        justify-self: center;
+    }  
+    .tamañoOne{
+        height: 140px;
+        width: 140px;    
+        margin: 10px;
+    }
+    .tamañoTwo{
+        height:557px;
+        width: 290px;
+    }
+    .tamañoThree{
+        height:550px;
+        width: 290px;
+    }
+    .fontSizeOne{
+        font-size: 18px;
+    }
+    .fontSizeTwo{
+        font-size: 12.5px;
+    }
+    .marginTwo{
+        margin-left:unset ;
+    }
+    .marginFour{
+        margin-left: 15px;
+    }
+    .marginFive{
+        margin: 15px;
+    }
+}
+@media(min-width:450px){
+    .header__titulo{
+        font-size: 28px;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 2s;
+        animation-delay: 4s;
+        animation-name: aparecer;
+        margin-right: 0px;
+        display: inline;
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+
+     }
+
+    }
+    .animacion{
+        height: 33px;
+        font-size: 23px;
+        animation-iteration-count:initial ;
+        animation-timing-function: ease-in;
+        animation-duration: 3s;
+        animation-delay: 0s;
+        animation-name: agrandarTwo;
+     
+     @keyframes agrandarTwo {
+            0%{ font-size: 7px;}
+            25%{ font-size: 10px;}
+            50%{ font-size: 14px;}
+            75%{ font-size: 17px;}
+            100%{ font-size: 20px;}
+        }  
+
+    }
+    .padreFlexDeCompetenciaTwo{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row nowrap;
+        align-items: center;              
+    }
+    .padreFlexDeCompetenciaTwoY{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row nowrap;
+        align-items: center;          
+    }
+    .gridTwo{
+        display: grid;
+        justify-content: center;
+    }
+    .parrafo{
+        width: 150px;
+        font-size: 15px;
+        margin-left: 50px;    
+    }
+    .posicionOne{
+        display: grid;
+        flex-direction: column;
+        justify-content:center;
+    }
     .imgTwo{
         width: 60px; 
         height: 60px;
@@ -18,102 +195,27 @@
         max-width: 80%;
         justify-self: center;
     }  
-    .header__titulo{
-        font-size: 28px;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in;
-        animation-duration: 2s;
-        animation-delay: 4s;
-        animation-name: aparecer;
-        margin-right: 0px;
-        display: inline;
-     @keyframes aparecer {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
-        
-     }
+    .tamañoOne{
+        height: 200px;
+        width: 200px;    
+        margin: 10px;
     }
-    .animacion{
-        height: 67px;
-        font-size: 20px;
-        animation-iteration-count:initial ;
-        animation-timing-function: ease-in;
-        animation-duration: 3s;
-        animation-delay: 0s;
-        animation-name: agrandarTwo;
-     
-     @keyframes agrandarTwo {
-            0%{ font-size: 7px;}
-            25%{ font-size: 10px;}
-            50%{ font-size: 14px;}
-            75%{ font-size: 17px;}
-            100%{ font-size: 20px;}
-        }  
-       
-        
-    }
-    .padreFlexDeCompetenciaTwo{
-        display: flex;
-        justify-content: space-around;
-        flex-flow: row nowrap;
-        align-items: center;              
-    }
-    .padreFlexDeCompetenciaTwoY{
-        display: flex;
-        justify-content: space-around;
-        flex-flow: row nowrap;
-        align-items: center;          
+    .tamañoTwo{
+        height:630px;
+        width: 420px;
     }
     .tamañoThree{
-        height: 140px;
-        width: 150px;    
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-    .posicionOne{
-        display: grid;
-        flex-direction: column;
-        justify-content:center;
-    }
-    .tamañoFour{
-        font-size: 17px;
-    }
-    .tamañothree{
-        font-size: 12px;
-    }
-    .marginthree{
-        margin-left: unset;
-    }
-    .marginFour{
-        margin-left: 35px;
+        height:500px;
+        width: 430px;
     }
     .marginTwo{
         margin-left:unset ;
     }
-
-    .marginFive{
-        margin: 0px 5px;
-    }
-    .marginSix{
-        margin: 0px 70px 0px 0px;
-    }
-    .marginSeven{
-        margin: unset;
-    }
-   
-       
-   
+    .marginFour{
+        margin-left: 35px;
+    } 
 }
-
-@media(min-width:768px){
-    .imgTwo{
-        width: 100px; 
-        height: 100px;
-    }
+@media(min-width:768px){ 
     .header__titulo{
         font-size: 35px;
         animation-iteration-count: infinite;
@@ -129,86 +231,85 @@
         }
         100% {
           opacity: 1;
-        }
-        
-     }
-    }
-    .animacion{
-        height: 46px;
-        animation-iteration-count:initial ;
-        animation-timing-function: ease-in;
-        animation-duration: 3s;
-        animation-delay: 0s;
-        animation-name: agrandar;
-     
-     @keyframes agrandar {
-            0%{ font-size: 8px;}
-            25%{ font-size: 12px;}
-            50%{ font-size: 18px;}
-            75%{ font-size: 22px;}
-            100%{ font-size: 25px;}
         }  
-       
-        
-    }
-    .padreFlexDeCompetenciaTwo{
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;  
-        height: 370px;  
-               
-    }
-    .posicionOne{
-        display: flex;
-        justify-content: space-evenly;
-    
-    }
-    .marginThree{
-        margin-left: 35px;
-    }
-    .marginTwo{
-        margin-left: 35px;
-    }
-    .padreFlexDeCompetenciaTwo{
-        display: flex;
-        justify-content: space-around;
-        flex-flow: row nowrap;
-        margin-bottom: 10px;
 
-        
-        
-               
+     }
+
+    }
+    .padreFlexDeCompetenciaTwo{
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;           
     }
     .padreFlexDeCompetenciaTwoY{
         display: flex;
         justify-content: space-around;
-        flex-flow: row nowrap;
-        margin-bottom: 10px;
-            
+        flex-flow: row nowrap;     
     }
-    .tamañoThree{
+    .tamañoOne{
         height: 400px;
         width: 400px;    
-        margin-top: 20px;
-        margin-bottom: 10px;
+        margin: 10px;
+    }
+    .posicionOne{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .evenlyTwo{
+        display:flex ;
+        justify-content: space-evenly;
+    }
+    .imgTwo{
+        width: 100px; 
+        height: 100px;
     }
     .imgThree{
         width: 400px;
-        height: 300px;
-        
+        height: 300px;  
+    }
+    .marginTwo{
+        margin-left: 35px;
     }
     .marginFour{
         margin: 35px 0px 5px;
     }
-    .marginFive{
-        margin: 0px 45px;
-    }
     .marginSix{
-        margin: 0px 0px 0px 250px;
+        margin-left: 35px;
     }
-    .marginSeven{
-        margin: 0px 130px 0px 200px;
+    .tamañoTwo{
+        height:unset;
+        width: 270px;
     }
- 
-}   
-
+    .tamañoThree{
+        height: 557px;
+        width: unset;
+    }
+    .parrafo{
+        width: 210px;
+        font-size: 15px;
+        margin-left: 45px; 
+    }
+}
+@media(min-width:1190px){
+    .parrafo{
+        width: unset;
+        font-size: unset;
+        margin-left: unset; 
+    }
+    .tamañoTwo{
+        height:unset;
+        width: unset;
+    }
+    .tamañoThree{
+        height: 557px;
+        width: unset;
+    }
+    .tamañoTwo{
+        font-size: 21px;
+    }
+    .imgThree{
+        width: 400px;
+        height: 300px; 
+    }
+} 
