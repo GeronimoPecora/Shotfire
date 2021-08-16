@@ -1,3 +1,32 @@
+@media(max-width:449px){
+    .posicionOne{
+        display: grid;
+        flex-direction: column;
+        justify-content:center;
+    }
+    .fontSizeOne{
+        font-size: 18px;
+    }
+    .fontSizeTwo{
+        font-size: 12.5px;
+    }
+}
+@media(min-width:450px){
+    .posicionOne{
+        display: grid;
+        flex-direction: column;
+        justify-content:center;
+    }
+}
+@media(min-width:768px){ 
+    .posicionOne{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+
+}
 @mixin anchoAltoSection($width,$height) {
     width: $width;
     height: $height;

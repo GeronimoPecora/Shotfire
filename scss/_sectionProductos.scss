@@ -1,1 +1,49 @@
-/*gdxfgf*/
+@media(max-width:449px){
+    .parrafo{
+        max-width: 30%;
+        font-size: 14px;
+        margin: 2px;  
+    }
+    .tamañoTwo{
+        height:557px;
+        width: 290px;
+    }
+    .tamañoThree{
+        height:550px;
+        width: 290px;
+    }
+}
+@media(min-width:450px){
+    .tamañoTwo{
+        height:630px;
+        width: 420px;
+    }
+    .tamañoThree{
+        height:500px;
+        width: 430px;
+    }
+}
+@media(min-width:768px){
+    .tamañoTwo{
+        height:unset;
+        width: 270px;
+    }
+    .tamañoThree{
+        height: 557px;
+        width: unset;
+    }
+ 
+}
+@media(min-width:1190px){
+    .tamañoTwo{
+        height:unset;
+        width: unset;
+    }
+    .tamañoThree{
+        height: 557px;
+        width: unset;
+    }
+    
+    
+} 
+
