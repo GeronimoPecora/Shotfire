@@ -1,26 +1,21 @@
 @media(max-width:449px){
-    .parrafo{
-        max-width: 30%;
-        font-size: 14px;
-        margin: 2px;  
-    }
     .tamañoTwo{
-        height:557px;
+        height:580px;
         width: 290px;
     }
     .tamañoThree{
-        height:550px;
+        height:530px;
         width: 290px;
     }
 }
 @media(min-width:450px){
     .tamañoTwo{
-        height:630px;
+        height:670px;
         width: 420px;
     }
     .tamañoThree{
-        height:500px;
-        width: 430px;
+        height:505px;
+        width: 437px;
     }
 }
 @media(min-width:768px){
@@ -29,7 +24,7 @@
         width: 270px;
     }
     .tamañoThree{
-        height: 557px;
+        height: 555px;
         width: unset;
     }
  
@@ -40,7 +35,7 @@
         width: unset;
     }
     .tamañoThree{
-        height: 557px;
+        height: 510px;
         width: unset;
     }
     
