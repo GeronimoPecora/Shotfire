@@ -341,9 +341,9 @@
     flex-flow: row nowrap;
     align-items: center; }
   .parrafo {
-    max-width: 30%;
+    max-width: 29%;
     font-size: 14px;
-    margin: 2px; }
+    margin: 10px; }
   .tamañoOne {
     height: 140px;
     width: 140px;
@@ -394,12 +394,8 @@
     margin-left: unset; } }
 
 @media (max-width: 449px) {
-  .parrafo {
-    max-width: 30%;
-    font-size: 14px;
-    margin: 2px; }
   .tamañoTwo {
-    height: 557px;
+    height: 580px;
     width: 290px; }
   .tamañoThree {
     height: 550px;
@@ -426,7 +422,7 @@
     height: unset;
     width: unset; }
   .tamañoThree {
-    height: 557px;
+    height: 510px;
     width: unset; } }
 
 .input {
