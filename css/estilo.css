@@ -168,7 +168,7 @@
   margin-bottom: 20px; }
 
 .marginThree {
-  margin: 10px 25px 10px 25px; }
+  margin: 10px 30px 10px 30px; }
 
 .row {
   margin-right: unset;
@@ -398,23 +398,23 @@
     height: 580px;
     width: 290px; }
   .tamañoThree {
-    height: 550px;
+    height: 530px;
     width: 290px; } }
 
 @media (min-width: 450px) {
   .tamañoTwo {
-    height: 630px;
+    height: 670px;
     width: 420px; }
   .tamañoThree {
-    height: 500px;
-    width: 430px; } }
+    height: 505px;
+    width: 437px; } }
 
 @media (min-width: 768px) {
   .tamañoTwo {
     height: unset;
     width: 270px; }
   .tamañoThree {
-    height: 557px;
+    height: 555px;
     width: unset; } }
 
 @media (min-width: 1190px) {
