@@ -399,7 +399,7 @@
     font-size: 14px;
     margin: 2px; }
   .tamañoTwo {
-    height: 540px;
+    height: 550px;
     width: 290px; }
   .tamañoThree {
     height: 530px;
@@ -407,7 +407,7 @@
 
 @media (min-width: 450px) {
   .tamañoTwo {
-    height: 630px;
+    height: 650px;
     width: 420px; }
   .tamañoThree {
     height: 505px;
